@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section{
+    margin-top: 5%;
+}
+
+.login{
+    background-color: #e2e5ff;
+    width: 600px;
+    margin: auto;
+    padding: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: #adbbb059 0px 1px 20px 0px;}
+
+.login-btn {
+    width: 100%;
+    margin: 0px 12%;
+    border-radius: 33px;
+    box-shadow: #28a74559 1px 5px 5px 0px;
+}
+
+.inputField {
+    border-radius: 33px;
+    border: 1px solid #aba0a0;
+    padding: 5px 15px;
+    box-shadow: #d8d4d461 1px 5px 5px 0px;
+}
+
+#transactionArea{
+    display: none;
+    padding-top: 5%''
+}
+
+.options{
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: #d8d4d461 1px 5px 5px 0px;
+    font-size: 60px;
+}
+
+.cashCounter{
+    margin-top: 5%;
+}
+
+.withdraw{
+    background-color: darkorange;
+    padding: 25px;
+}
+.deposit{
+    background-color: #58afd2;
+    padding: 25px;
+}
+.balance{
+    background-color: tomato;
+    padding: 25px;
+
+}
+
+.payment-area {
+    padding: 20px;
+    background-color: #d1fbdb;
+    justify-content: center;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: #bbbbbb2e 1px 6px 7px 2px;
+}
